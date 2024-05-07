@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moe - Walgreens</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body,
+      html {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        scroll-behavior: smooth;
+      }
+      .frontend {
+        display: flex;
+        padding: 60px 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+      }
+      .profile-sec {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+      }
+
+      .pic {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 180px;
+        overflow: hidden;
+      }
+
+      .pic img {
+        width: 250.5px;
+        height: 269.813px;
+      }
+
+      .card {
+        display: flex;
+        width: 300px;
+        padding: 20px 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+        cursor: pointer;
+        background: #fff;
+      }
+      .card img {
+        width: 220px;
+        height: 220px;
+      }
+
+      .card span {
+        color: #000;
+        font-family: "Racing Sans One";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      span {
+        color: #000;
+        text-align: center;
+        font-family: Questrial;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        max-width: 960px;
+      }
+
+      .tech {
+        display: flex;
+        padding: 8px 100px;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        align-self: stretch;
+      }
+
+      .tech img {
+        width: 140px;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="frontend">
+      <div class="profile-sec">
+        <a href="landing.html">
+          <div class="pic">
+            <img src="images/profile.png" />
+          </div>
+        </a>
+        <div class="card">
+          <img src="images/backend.svg" />
+          <span>Back End</span>
+        </div>
+      </div>
+      <span>
+        I’ve delivered small-sized back-end solutions using C#/Node.js, MongoDB,
+        SQL Server, and deployed all using Microsoft Azure. Solutions include a
+        construction contractor review platform, a sales reporting app, and
+        more.
+      </span>
+      <img src="images/azurecert.png" />
+      <div class="tech">
+        <img src="images/microsoftazure.png" />
+        <img src="images/csharp.png" />
+        <img src="images/nodejs.png" />
+        <img src="images/mongodb.png" />
+        <img src="images/entityframework.png" />
+        <img src="images/sqlserver.png" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

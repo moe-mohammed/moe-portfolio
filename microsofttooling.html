@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moe - Walgreens</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body,
+      html {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        scroll-behavior: smooth;
+      }
+
+      .frontend {
+        display: flex;
+        gap: 30px;
+        padding: 60px 0px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .profile-sec {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+      }
+
+      .pic {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 180px;
+        overflow: hidden;
+      }
+
+      .pic img {
+        width: 250.5px;
+        height: 269.813px;
+      }
+
+      .card {
+        display: flex;
+        width: 300px;
+        padding: 20px 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+        cursor: pointer;
+        background: #fff;
+      }
+      .card img {
+        width: 220px;
+        height: 220px;
+      }
+
+      .card span {
+        color: #000;
+        font-family: "Racing Sans One";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      .work {
+        display: flex;
+        height: 304px;
+        padding: 8px 100px;
+        justify-content: space-between;
+        align-items: center;
+        gap: 60px;
+        flex-shrink: 0;
+        align-self: stretch;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      span {
+        color: #000;
+        text-align: center;
+        font-family: Questrial;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        max-width: 960px;
+      }
+      .layouts {
+        display: flex;
+        padding: 8px 100px;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        flex-shrink: 0;
+      }
+      .layouts img {
+        width: 203.202px;
+        height: 440px;
+      }
+
+      .tech {
+        display: flex;
+        padding: 8px 100px;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        align-self: stretch;
+      }
+
+      .tech img {
+        width: 140px;
+        height: auto;
+      }
+
+      .microsoft img {
+        width: 200px;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="frontend">
+      <div class="profile-sec">
+        <a href="landing.html">
+          <div class="pic">
+            <img src="images/profile.png" />
+          </div>
+        </a>
+        <a href="tools.html">
+          <div class="card">
+            <img src="images/tools.svg" />
+            <span>Tooling</span>
+          </div>
+        </a>
+        <div class="card microsoft">
+          <img src="images/microsoftlogo.png" />
+        </div>
+      </div>
+      <span>
+        At the Cloud Hardware Infrastructure Engineering organization, my team
+        was responsible for automating the troubleshooting and mitigation of
+        data center incidents. I helped automate two incident scenarios which
+        handled hundreds of router and switch incidents. Briding the devices'
+        knowledge gap required strong and swift communication skills with
+        networking engineers as they had limtied time.
+      </span>
+      <div class="tech">
+        <img src="images/csharp.png" />
+        <img src="images/ssh.png" />
+        <img src="images/kusto.png" />
+        <img src="images/python.png" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
